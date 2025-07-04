@@ -26,7 +26,7 @@ def get_book_text(filepath):
 
 def print_report(path_to_book, num_words, chars):
     print("============ BOOKBOT ============")
-    print("Analyzing book found at " + book_filepath + "...")
+    print("Analyzing book found at " + path_to_book + "...")
     print("----------- Word Count ----------")
     print("Found " + str(num_words) + " total words")
     print("--------- Character Count -------")
